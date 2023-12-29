@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewmembers</class>
+ <widget class="QDialog" name="viewmembers">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LibTech</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Pictures.qrc">
+    <normaloff>:/new/prefix1/pics/LibTechLogo.png</normaloff>:/new/prefix1/pics/LibTechLogo.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/new/prefix1/pics/memberlist2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QTableView" name="membersTable">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>160</y>
+     <width>401</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: none</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>600</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string>Delete Member</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>90</y>
+     <width>391</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>600</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

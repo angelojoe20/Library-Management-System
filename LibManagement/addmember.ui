@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addmember</class>
+ <widget class="QDialog" name="addmember">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LibTech</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Pictures.qrc">
+    <normaloff>:/new/prefix1/pics/LibTechLogo.png</normaloff>:/new/prefix1/pics/LibTechLogo.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/new/prefix1/pics/member2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="firstNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>190</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lastNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>260</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contactNumberLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>320</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emailLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>380</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>560</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addMemberButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>560</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string>Add Member</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="genderComboBox">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>450</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>130</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editbook</class>
+ <widget class="QDialog" name="editbook">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LibTech</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Pictures.qrc">
+    <normaloff>:/new/prefix1/pics/LibTechLogo.png</normaloff>:/new/prefix1/pics/LibTechLogo.png</iconset>
+  </property>
+  <widget class="QLineEdit" name="genreLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>310</y>
+     <width>251</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="coverLabel">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>390</y>
+     <width>241</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>261</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="quantitySpinBox">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>390</y>
+     <width>251</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="publisherLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>460</y>
+     <width>251</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bookNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>170</y>
+     <width>251</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="descriptionTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>150</y>
+     <width>281</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="uploadCoverButton">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>560</y>
+     <width>181</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(109, 4, 4);
+color: rgb(255, 255, 255);
+border: none
+</string>
+   </property>
+   <property name="text">
+    <string>Upload Book Cover</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="authorLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>240</y>
+     <width>251</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>630</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string>Save Details</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>530</y>
+     <width>211</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>80</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(109, 4, 4);
+color: rgb(255, 255, 255);
+border: none
+</string>
+   </property>
+   <property name="text">
+    <string>Search ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/new/prefix1/pics/edit.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>630</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(109, 4, 4);</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <zorder>label_9</zorder>
+  <zorder>genreLineEdit</zorder>
+  <zorder>coverLabel</zorder>
+  <zorder>idLineEdit</zorder>
+  <zorder>quantitySpinBox</zorder>
+  <zorder>publisherLineEdit</zorder>
+  <zorder>bookNameLineEdit</zorder>
+  <zorder>descriptionTextEdit</zorder>
+  <zorder>uploadCoverButton</zorder>
+  <zorder>authorLineEdit</zorder>
+  <zorder>saveButton</zorder>
+  <zorder>dateEdit</zorder>
+  <zorder>searchButton</zorder>
+  <zorder>closeButton</zorder>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

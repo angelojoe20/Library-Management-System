@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>pics/SplashScreen.png</file>
+        <file>pics/StartScreen.png</file>
+        <file>pics/LibTechLogo.png</file>
+        <file>pics/LogInScreen2.png</file>
+        <file>pics/signup.png</file>
+        <file>pics/add.png</file>
+        <file>pics/edit.png</file>
+        <file>pics/booklist.png</file>
+        <file>pics/addmember.png</file>
+        <file>pics/viewmember.png</file>
+        <file>pics/memberlist2.png</file>
+        <file>pics/booklist2.png</file>
+        <file>pics/member2.png</file>
+        <file>pics/editmembers.png</file>
+        <file>pics/editmembers3.png</file>
+    </qresource>
+</RCC>
